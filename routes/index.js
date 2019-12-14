@@ -6,10 +6,9 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
-// My pet functions
-router.get('/hii', function(req, res, next) {
-  res.render('index', { title: 'Express' });
-});
+router.get("/test",function(req,res){
+  res.json({name:"Sabrina"})
+})
 
 
 module.exports = router;
