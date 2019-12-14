@@ -7,6 +7,9 @@ router.get('/', function(req, res, next) {
 });
 
 // My pet functions
+router.get('/hii', function(req, res, next) {
+  res.render('index', { title: 'Express' });
+});
 
 
 module.exports = router;
