@@ -56,7 +56,7 @@ router.get("/findAnimals",function(req,res){
       if((item.type === req.animalType && item.breed === req.animalBreed) && (item.zipCode == req.zipCode && item.age <= req.maxAge)){
         results.push(item)
       }
-      results.push("hii")
+      results.push(item)
   }
    
    res.json(results)
