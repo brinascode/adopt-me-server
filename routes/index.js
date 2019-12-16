@@ -1,14 +1,12 @@
 var express = require('express');
 var router = express.Router();
 
-
-
 var animalsAvailable = [{
   type:"dog",
   breeds:["Golden Retriever","German Shepherd","French Poodle"]
 },
 {
-  type:"cat",
+  type:"cat", 
   breeds:["French Cat","Aristocat"]
 },
 {
@@ -53,8 +51,9 @@ router.post("/findAnimals",function(req,res){
   var results = []
   for(var i=0;i<animalsToAdopt.length;i++){
       var item = animalsToAdopt[i]
-      if((item.type == req.body.animalType) && (item.breed == req.body.animalBreed) && (item.zipCode == req.body.zipCode) && (item.age < req.body.maxAge)){
+      if((item.type == req.body.animalType) && (item.breed == req.body.animalBreed) && (item.zipCode == req.body.zipCode) && (item.age <= req.body.maxAge)){
         results.push(item)
+        console.log(item.age <=  req.body.maxAge)
       }
   }
    
