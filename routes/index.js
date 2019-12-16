@@ -39,8 +39,6 @@ var animalsToAdopt = [
   }
 ]
 
-
-
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
@@ -53,11 +51,13 @@ router.get("/getAnimalsAndBreeds",function(req,res){
 
 router.get("/findAnimals",function(req,res){
   var results = []
-   animalsToAdopt.forEach(function(item,index){
+  for(var i=0;i<animalsToAdopt.length;i++){
+      var item = animalsToAdopt[i]
       if((item.type === req.animalType && item.breed === req.animalBreed) && (item.zipCode == req.zipCode && item.age <= req.maxAge)){
         results.push(item)
       }
-   })
+  }
+   
    res.json(results)
 })
 
