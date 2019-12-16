@@ -53,7 +53,7 @@ router.get("/findAnimals",function(req,res){
   var results = []
   for(var i=0;i<animalsToAdopt.length;i++){
       var item = animalsToAdopt[i]
-      if((item.type === req.animalType && item.breed === req.animalBreed) && (item.zipCode == req.zipCode && item.age <= req.maxAge)){
+      if((item.type == req.animalType && item.breed == req.animalBreed) && (item.zipCode == req.zipCode && item.age <= req.maxAge)){
         results.push(item)
       }
       results.push(item)
