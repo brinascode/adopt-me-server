@@ -3,9 +3,9 @@ var router = express.Router();
 
 
 
-var animals = [{
+var animalsAvailable = [{
   type:"dog",
-  breeds:["Golden Retriever","German Sheperd","French Poodle"]
+  breeds:["Golden Retriever","German Shepherd","French Poodle"]
 },
 {
   type:"cat",
@@ -16,6 +16,29 @@ var animals = [{
   breeds:["Hamster1","Hamster2"]
 }]
 
+var animalsToAdopt = [
+  {
+    id:1,
+    name:"Jodie",
+    type:"dog",
+    breed:"Golden Retriever",
+    image:"https://adopt-me-spa.s3.amazonaws.com/black-puppy.jpg",
+    zipCode:22207,
+    age:12
+
+  },
+  {
+    id:2,
+    name:"Jonah",
+    type:"dog",
+    breed:"German Shepherd",
+    image:"https://adopt-me-spa.s3.amazonaws.com/domestic-dog_thumb.jpg",
+    zipCode:22000,
+    age:40
+
+  }
+]
+
 
 
 /* GET home page. */
@@ -24,12 +47,18 @@ router.get('/', function(req, res, next) {
 });
 
 router.get("/getAnimalsAndBreeds",function(req,res){
-    res.json(animals)
+    res.json(animalsAvailable)
 })
 
 
-router.get("/test",function(req,res){
-  res.json({name:"Sabrina"})
+router.get("/findAnimals",function(req,res){
+  var results = []
+   animalsToAdopt.forEach(function(item,index){
+      if((item.type === req.animalType && item.breed === req.animalBreed) && (item.zipCode == req.zipCode && item.age <= req.maxAge)){
+        results.push(item)
+      }
+   })
+   res.json(results)
 })
 
 
