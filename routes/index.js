@@ -59,7 +59,7 @@ router.get("/findAnimals",function(req,res){
      
   }
    
-   res.json(results)
+   res.json(request)
 })
 
 
