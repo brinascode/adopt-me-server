@@ -26,7 +26,7 @@ var animalsToAdopt = [
 
   },
   {
-    id:1,
+    id:2,
     name:"Johnny",
     type:"dog",
     breed:"Golden Retriever",
@@ -50,7 +50,7 @@ var animalsToAdopt = [
     name:"Luca",
     type:"dog",
     breed:"Pitbull",
-    image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/pitbull1.jpg",
+    image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/pitbull2.jpg",
     zipCode:95051,
     age:20
 
@@ -60,7 +60,7 @@ var animalsToAdopt = [
     name:"Moses",
     type:"dog",
     breed:"Pitbull",
-    image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/pitbull2.jpg",
+    image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/pitbull3.jpg",
     zipCode:95051,
     age:7
 
