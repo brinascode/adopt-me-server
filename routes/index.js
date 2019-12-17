@@ -23,7 +23,8 @@ module.exports = function(app){
       breed:"Golden Retriever",
       image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/golden-retriever1.jpg",
       zipCode:22207,
-      age:7
+      age:7,
+      description:"This is the pet you need!"
   
     },
     {
@@ -33,7 +34,8 @@ module.exports = function(app){
       breed:"Golden Retriever",
       image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/german-shepherd2.jpg",
       zipCode:22201,
-      age:15
+      age:15,
+      description:"This is the pet you need!"
   
     },
     {
@@ -43,7 +45,8 @@ module.exports = function(app){
       breed:"Pitbull",
       image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/pitbull1.jpg",
       zipCode:95051,
-      age:13
+      age:13,
+      description:"This is the pet you need!"
   
     },
     {
@@ -53,7 +56,8 @@ module.exports = function(app){
       breed:"Pitbull",
       image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/pitbull2.jpg",
       zipCode:95051,
-      age:20
+      age:20,
+      description:"This is the pet you need!"
   
     },
     {
@@ -63,7 +67,8 @@ module.exports = function(app){
       breed:"Pitbull",
       image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/pitbull3.jpg",
       zipCode:95051,
-      age:7
+      age:7,
+      description:"This is the pet you need!"
   
     },
     {
@@ -73,7 +78,8 @@ module.exports = function(app){
       breed:"Poodle",
       image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/poodle1.jpeg",
       zipCode:23457,
-      age:8
+      age:8,
+      description:"This is the pet you need!"
   
     },
     {
@@ -83,7 +89,8 @@ module.exports = function(app){
       breed:"Poodle",
       image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/poodle2.jpg",
       zipCode:21117,
-      age:9
+      age:9,
+      description:"This is the pet you need!"
   
     },
     {
@@ -93,7 +100,8 @@ module.exports = function(app){
       breed:"German Shepherd",
       image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/german-shepherd1.jpg",
       zipCode:24444,
-      age:5
+      age:5,
+      description:"This is the pet you need!"
   
     },
     {
@@ -103,7 +111,8 @@ module.exports = function(app){
       breed:"German Shepherd",
       image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/german-shepherd2.jpg",
       zipCode:24444,
-      age:5
+      age:5,
+      description:"This is the pet you need!"
   
     },
     {
@@ -113,7 +122,8 @@ module.exports = function(app){
       breed:"Persian Cat",
       image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/the+cats/persian1.jpeg",
       zipCode:95051,
-      age:5
+      age:5,
+      description:"This is the pet you need!"
   
     },
     {
@@ -123,7 +133,8 @@ module.exports = function(app){
       breed:"Persian Cat",
       image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/the+cats/persian2.jpg",
       zipCode:95051,
-      age:20
+      age:20,
+      description:"This is the pet you need!"
   
     },
     {
@@ -133,7 +144,8 @@ module.exports = function(app){
       breed:"Persian Cat",
       image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/the+cats/persian3.jpeg",
       zipCode:95051,
-      age:20
+      age:20,
+      description:"This is the pet you need!"
   
     },
     {
@@ -143,7 +155,8 @@ module.exports = function(app){
       breed:"Persian Cat",
       image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/the+cats/persian4.jpg",
       zipCode:95051,
-      age:15
+      age:15,
+      description:"This is the pet you need!"
   
     },
     {
@@ -153,7 +166,8 @@ module.exports = function(app){
       breed:"Ragdoll",
       image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/the+cats/ragdoll1.jpg",
       zipCode:22207,
-      age:6
+      age:6,
+      description:"This is the pet you need!"
   
     },
     {
@@ -163,7 +177,8 @@ module.exports = function(app){
       breed:"Ragdoll",
       image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/the+cats/ragdoll2.jpg",
       zipCode:22207,
-      age:9
+      age:9,
+      description:"This is the pet you need!"
   
     },
     {
@@ -173,7 +188,8 @@ module.exports = function(app){
       breed:"Ragdoll",
       image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/the+cats/ragdoll3.jpg",
       zipCode:22207,
-      age:4
+      age:4,
+      description:"This is the pet you need!"
   
     },
     {
@@ -183,7 +199,8 @@ module.exports = function(app){
       breed:"Syrian",
       image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/the+hamsters/syrian1.jpg",
       zipCode:22207,
-      age:4
+      age:4,
+      description:"This is the pet you need!"
   
     },
     {
@@ -193,7 +210,8 @@ module.exports = function(app){
       breed:"Syrian",
       image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/the+hamsters/syrian2.jpg",
       zipCode:22207,
-      age:3
+      age:3,
+      description:"This is the pet you need!"
   
     },
     {
@@ -203,7 +221,8 @@ module.exports = function(app){
       breed:"Syrian",
       image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/the+hamsters/syrian3.jpg",
       zipCode:95051,
-      age:5
+      age:5,
+      description:"This is the pet you need!"
   
     },
     {
@@ -213,7 +232,8 @@ module.exports = function(app){
       breed:"Syrian",
       image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/the+hamsters/syrian4.jpg",
       zipCode:95051,
-      age:7
+      age:7,
+      description:"This is the pet you need!"
   
     },
     {
@@ -223,7 +243,8 @@ module.exports = function(app){
       breed:"Dwarf Campbell Russian",
       image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/the+hamsters/dwarf-russian1.jpg",
       zipCode:222222,
-      age:1
+      age:1,
+      description:"This is the pet you need!"
   
     },
     {
@@ -233,7 +254,8 @@ module.exports = function(app){
       breed:"Dwarf Campbell Russian",
       image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/the+hamsters/dwarf-russian2.jpg",
       zipCode:222222,
-      age:3
+      age:3,
+      description:"This is the pet you need!"
   
     },
     {
@@ -243,7 +265,8 @@ module.exports = function(app){
       breed:"Dwarf Campbell Russian",
       image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/the+hamsters/dwarf-russian3.jpg",
       zipCode:222222,
-      age:8
+      age:8,
+      description:"This is the pet you need!"
   
     },
     {
@@ -253,7 +276,8 @@ module.exports = function(app){
       breed:"Dwarf Campbell Russian",
       image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/the+hamsters/dwarf-russian4.jpg",
       zipCode:222222,
-      age:4
+      age:4,
+      description:"This is the pet you need!"
   
     },
     {
@@ -263,7 +287,8 @@ module.exports = function(app){
       breed:"Roborovski Dwarf",
       image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/the+hamsters/robo1.jpg",
       zipCode:20000,
-      age:3
+      age:3,
+      description:"This is the pet you need!"
   
     },
     {
@@ -273,7 +298,8 @@ module.exports = function(app){
       breed:"Roborovski Dwarf",
       image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/the+hamsters/robo2.jpg",
       zipCode:20000,
-      age:7
+      age:7,
+      description:"This is the pet you need!"
   
     },
     {
@@ -283,7 +309,8 @@ module.exports = function(app){
       breed:"Roborovski Dwarf",
       image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/the+hamsters/robo3.jpg",
       zipCode:20000,
-      age:9
+      age:9,
+      description:"This is the pet you need!"
   
     }
 
