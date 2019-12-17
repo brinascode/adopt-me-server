@@ -57,6 +57,7 @@ router.post("/findAnimals",function(req,res){
       }
       results.push("hi")
   }
+  results.push("hi")
   console.log(results)
   res.json(results)
    
