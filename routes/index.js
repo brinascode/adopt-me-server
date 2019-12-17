@@ -55,7 +55,11 @@ router.post("/findAnimals",function(req,res){
         results.push(item)
        
       }
-      console.log(item.age,req.body.maxAge)
+      
+      if(item.age <= req.body.maxAge){
+        console.log("hii")
+      }
+     
   }
   res.json(results)
    
