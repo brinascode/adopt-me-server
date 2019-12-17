@@ -47,7 +47,7 @@ var animalsToAdopt = [
   },
   {
     id:4,
-    name:"Luca",
+    name:"Jolie",
     type:"dog",
     breed:"Pitbull",
     image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/pitbull2.jpg",
@@ -121,7 +121,7 @@ router.post("/findAnimals",function(req,res){
   var results = []
   for(var i=0;i<animalsToAdopt.length;i++){
       var item = animalsToAdopt[i]
-      if( (item.type === req.body.animalType) && (item.breed === req.body.animalBreed) && (item.zipCode === req.body.zipCode) && (req.body.maxAge < item.age || req.body.maxAge === item.age) ){
+      if( (item.type === req.body.animalType) && (item.breed === req.body.animalBreed) && (item.zipCode === req.body.zipCode) && (item.age < req.body.maxAge   || req.body.maxAge === item.age) ){
         results.push(item)
         
       }
