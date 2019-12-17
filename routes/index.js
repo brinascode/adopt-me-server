@@ -8,7 +8,7 @@ module.exports = function(app){
   },
   {
     type:"cat", 
-    breeds:["French Cat","Aristocat"]
+    breeds:["Persian Cat","Ragdoll"]
   },
   {
     type:"hamster",
@@ -97,7 +97,7 @@ module.exports = function(app){
   
     },
     {
-      id:8,
+      id:9,
       name:"Queen",
       type:"dog",
       breed:"German Shepherd",
@@ -105,7 +105,78 @@ module.exports = function(app){
       zipCode:24444,
       age:5
   
+    },
+    {
+      id:10,
+      name:"Candy",
+      type:"cat",
+      breed:"Persian Cat",
+      image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/the+cats/persian1.jpeg",
+      zipCode:95051,
+      age:5
+  
+    },
+    {
+      id:11,
+      name:"Greeny",
+      type:"cat",
+      breed:"Persian Cat",
+      image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/the+cats/persian2.jpeg",
+      zipCode:95051,
+      age:20
+  
+    },
+    {
+      id:12,
+      name:"Beam",
+      type:"cat",
+      breed:"Persian Cat",
+      image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/the+cats/persian3.jpeg",
+      zipCode:95051,
+      age:20
+  
+    },
+    {
+      id:13,
+      name:"Bravo",
+      type:"cat",
+      breed:"Persian Cat",
+      image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/the+cats/persian4.jpeg",
+      zipCode:95051,
+      age:15
+  
+    },
+    {
+      id:14,
+      name:"Doll",
+      type:"cat",
+      breed:"Ragdoll",
+      image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/the+cats/ragdoll1.jpg",
+      zipCode:22207,
+      age:6
+  
+    },
+    {
+      id:15,
+      name:"Lemon",
+      type:"cat",
+      breed:"Ragdoll",
+      image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/the+cats/ragdoll2.jpg",
+      zipCode:22207,
+      age:9
+  
+    },
+    {
+      id:16,
+      name:"Pie",
+      type:"cat",
+      breed:"Ragdoll",
+      image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/the+cats/ragdoll3.jpg",
+      zipCode:22207,
+      age:4
+  
     }
+
   ]
   
   /* GET home page. */
