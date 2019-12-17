@@ -121,7 +121,7 @@ module.exports = function(app){
       name:"Greeny",
       type:"cat",
       breed:"Persian Cat",
-      image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/the+cats/persian2.jpeg",
+      image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/the+cats/persian2.jpg",
       zipCode:95051,
       age:20
   
@@ -141,7 +141,7 @@ module.exports = function(app){
       name:"Bravo",
       type:"cat",
       breed:"Persian Cat",
-      image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/the+cats/persian4.jpeg",
+      image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/the+cats/persian4.jpg",
       zipCode:95051,
       age:15
   
