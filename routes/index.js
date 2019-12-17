@@ -242,7 +242,7 @@ module.exports = function(app){
       type:"hamster",
       breed:"Dwarf Campbell Russian",
       image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/the+hamsters/dwarf-russian1.jpg",
-      zipCode:222222,
+      zipCode:22222,
       age:1,
       description:"This is the pet you need!"
   
@@ -253,7 +253,7 @@ module.exports = function(app){
       type:"hamster",
       breed:"Dwarf Campbell Russian",
       image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/the+hamsters/dwarf-russian2.jpg",
-      zipCode:222222,
+      zipCode:22222,
       age:3,
       description:"This is the pet you need!"
   
@@ -264,7 +264,7 @@ module.exports = function(app){
       type:"hamster",
       breed:"Dwarf Campbell Russian",
       image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/the+hamsters/dwarf-russian3.jpg",
-      zipCode:222222,
+      zipCode:22222,
       age:8,
       description:"This is the pet you need!"
   
@@ -275,7 +275,7 @@ module.exports = function(app){
       type:"hamster",
       breed:"Dwarf Campbell Russian",
       image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/the+hamsters/dwarf-russian4.jpg",
-      zipCode:222222,
+      zipCode:22222,
       age:4,
       description:"This is the pet you need!"
   
