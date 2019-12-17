@@ -51,14 +51,12 @@ router.post("/findAnimals",function(req,res){
   var results = []
   for(var i=0;i<animalsToAdopt.length;i++){
       var item = animalsToAdopt[i]
-      if((item.type == req.body.animalType) && (item.breed == req.body.animalBreed) && (item.zipCode == req.body.zipCode) && (item.age <= req.body.maxAge)){
+      if(((item.type == req.body.animalType) && (item.breed == req.body.animalBreed)) && ((item.zipCode == req.body.zipCode) && (item.age <= req.body.maxAge))){
         results.push(item)
        
       }
+
       
-      if(item.age <= req.body.maxAge){
-        console.log("hii")
-      }
      
   }
   res.json(results)
