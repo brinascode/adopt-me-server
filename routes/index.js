@@ -51,7 +51,7 @@ router.post("/findAnimals",function(req,res){
   var results = []
   for(var i=0;i<animalsToAdopt.length;i++){
       var item = animalsToAdopt[i]
-      if( (true) && (true) && (true) && (true) ){
+      if( (item.type === req.body.animalType) && (true) && (true) && (true) ){
         results.push(item)
         
       }
