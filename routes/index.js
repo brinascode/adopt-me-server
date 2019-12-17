@@ -12,7 +12,7 @@ module.exports = function(app){
   },
   {
     type:"hamster",
-    breeds:["Hamster1","Hamster2"]
+    breeds:["Syrian","Dwarf Campbell Russian","Roborovski Dwarf"]
   }]
   
   var animalsToAdopt = [
@@ -174,6 +174,116 @@ module.exports = function(app){
       image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/the+cats/ragdoll3.jpg",
       zipCode:22207,
       age:4
+  
+    },
+    {
+      id:17,
+      name:"Santa Claus",
+      type:"hamster",
+      breed:"Syrian",
+      image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/the+hamsters/syrian1.jpg",
+      zipCode:22207,
+      age:4
+  
+    },
+    {
+      id:18,
+      name:"Natie",
+      type:"hamster",
+      breed:"Syrian",
+      image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/the+hamsters/syrian2.jpg",
+      zipCode:22207,
+      age:3
+  
+    },
+    {
+      id:19,
+      name:"Noel",
+      type:"hamster",
+      breed:"Syrian",
+      image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/the+hamsters/syrian3.jpg",
+      zipCode:95051,
+      age:5
+  
+    },
+    {
+      id:20,
+      name:"Jolly",
+      type:"hamster",
+      breed:"Syrian",
+      image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/the+hamsters/syrian4.jpg",
+      zipCode:95051,
+      age:7
+  
+    },
+    {
+      id:21,
+      name:"Hammy",
+      type:"hamster",
+      breed:"Dwarf Campbell Russian",
+      image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/the+hamsters/dwarf-russian1.jpg",
+      zipCode:222222,
+      age:1
+  
+    },
+    {
+      id:22,
+      name:"Holly",
+      type:"hamster",
+      breed:"Dwarf Campbell Russian",
+      image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/the+hamsters/dwarf-russian2.jpg",
+      zipCode:222222,
+      age:3
+  
+    },
+    {
+      id:23,
+      name:"Dodo",
+      type:"hamster",
+      breed:"Dwarf Campbell Russian",
+      image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/the+hamsters/dwarf-russian3.jpg",
+      zipCode:222222,
+      age:8
+  
+    },
+    {
+      id:24,
+      name:"Puce",
+      type:"hamster",
+      breed:"Dwarf Campbell Russian",
+      image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/the+hamsters/dwarf-russian4.jpg",
+      zipCode:222222,
+      age:4
+  
+    },
+    {
+      id:25,
+      name:"Happy",
+      type:"hamster",
+      breed:"Roborovski Dwarf",
+      image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/the+hamsters/robo1.jpg",
+      zipCode:20000,
+      age:3
+  
+    },
+    {
+      id:26,
+      name:"Star",
+      type:"hamster",
+      breed:"Roborovski Dwarf",
+      image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/the+hamsters/robo2.jpg",
+      zipCode:20000,
+      age:7
+  
+    },
+    {
+      id:27,
+      name:"Starlette",
+      type:"hamster",
+      breed:"Roborovski Dwarf",
+      image:"https://adopt-me-spa.s3.amazonaws.com/The+Pets/the+hamsters/robo3.jpg",
+      zipCode:20000,
+      age:9
   
     }
 
